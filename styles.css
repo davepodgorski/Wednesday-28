@@ -1,0 +1,13 @@
+p {color: blue
+
+}
+
+
+li > a:hover {color: yellow;
+}
+
+h1 {font-size: 25px
+}
+
+body > ul > li {display: inline-block
+}
