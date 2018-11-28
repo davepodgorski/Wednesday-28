@@ -3,6 +3,15 @@ require 'sinatra'
       'Put this in your pipe & smoke it!'
     end
 
+    get '/portfolio' do
+      erb :gallery
+
+    end
+
+    get '/home' do
+  erb :index
+end
+
     get '/hello' do
       "Hello Dave"
     end
@@ -12,5 +21,5 @@ require 'sinatra'
     end
 
   get '/todo_list' do
-    "<htmml><body></h1>TODO List</h1><body><html>"
+    "<html><body></h1>TODO List</h1><body><html>"
   end
